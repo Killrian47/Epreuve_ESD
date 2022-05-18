@@ -7,31 +7,35 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <form action="/resultat.html" method="post">
-        <div class="nom">
-            <label for="nom">Votre nom</label>
-            <input type="text" name="nom" id="nom">
-        </div>
-        <br>
-        <div>
-            <label for="prenom">Votre prénom</label>
-            <input type="text" name="prenom" id="prenom">
-        </div>
-        <br>
-        <div>
-            <label for="mail">Votre adresse mail</label> 
-            <input type="mail" name="mail" id="mail">
-        </div>
-        <br>
-        <div>
-            <label for="tel">Votre numéro de téléphone</label>
-            <input type="number" name="tel" id="tel">
-        </div>
-        
-        <div class="boutton">
-            <button>ENVOYER</button>
-        </div>
-       
-    </form>
+    <p class="p1">Valider vos réponses en inscrivant vos coordonnées</p>
+    <div class="form_contact">
+        <form action="/resultat.html" method="post">
+            <div class="nom">
+                <label for="nom">Votre nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="DUPONT">
+            </div>
+            <br>
+            <div class="prenom">
+                <label for="prenom">Votre prénom :</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Lucas">
+            </div>
+            <br>
+            <div class="email">
+                <label for="mail">Votre adresse mail :</label> 
+                <input type="mail" name="mail" id="mail" placeholder="exemple@mail.com">
+            </div>
+            <br>
+            <div class="tel">
+                <label for="tel">Votre numéro de téléphone :</label>
+                <input type="number" name="tel" id="tel">
+            </div>
+            
+            <div class="valider">
+                <button>ENVOYER</button>
+            </div>
+           
+        </form>
+    </div>
+    
 </body>
 </html>

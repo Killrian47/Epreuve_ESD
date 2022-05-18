@@ -17,6 +17,9 @@ p {
     font-weight: bold;
 }
 
+.boder_logo {
+    width: 150px
+}
 .logo img {
     display: block;
     height: 100px;
@@ -92,6 +95,37 @@ input[type=checkbox]:checked {
 }
 .valider {
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px ;
+}
+
+.form_contact {
+    
+    width: 150px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px ;
+    margin-top: 10vh;
+    margin-left: 10vh;
+
+}
+
+.p1 {
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 50px 0 50px;
+}
+.nom {
     margin-top: 15px;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
+}
+.prenom {
+    margin-bottom: 15px;
+}
+.email {
+    margin-bottom: 15px;
+}
+.tel {
+    margin-bottom: 15px;
 }
