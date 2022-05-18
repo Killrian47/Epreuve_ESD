@@ -1,14 +1,67 @@
-html, body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
     height: 100%;
     width: 100%;
+}
+
+p {
+    padding: 0px 20px;
+}
+
+.titre {
+    font-weight: bold;
 }
 
 .logo img {
     display: block;
     height: 100px;
     width: auto;
-    margin: 150px auto;
+    padding-top: 150px;
+    margin: 0px auto;
     border-radius: 50px;
+}
 
+.explique {
+    padding-top: 50px;
+}
 
+.prix {
+    padding-top: 50px;
+}
+
+.participer {
+    
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+button {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.condition {
+    font-weight: bold;
+    text-align: center;
+}
+
+.qcm {
+    padding: 0px 20px;
+}
+
+input[type=checkbox] {
+    border-radius: 5px;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border: 1px black solid;
+}
+
+input[type=checkbox]:checked {
+    background-color: black;
 }
