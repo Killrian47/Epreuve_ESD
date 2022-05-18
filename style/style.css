@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 150px auto;
+    border-radius: 50px;
+
+
+}
