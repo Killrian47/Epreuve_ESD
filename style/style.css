@@ -12,6 +12,10 @@ html{
 p {
     padding: 0px 20px;
 }
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
 
 .titre {
     font-weight: bold;
@@ -133,4 +137,10 @@ input[type=checkbox]:checked {
 }
 .tel {
     margin-bottom: 15px;
+}
+.remerciement {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align:justify;
 }
