@@ -16,9 +16,13 @@ p {
 .titre {
     font-weight: bold;
 }
-
-.boder_logo {
-    width: 150px
+h2 {
+    text-align: center;
+}
+.logo {
+    border: 1px solid;
+    padding-bottom: 25px;
+    border-radius: 8px;
 }
 .logo img {
     display: block;
@@ -29,6 +33,7 @@ p {
     margin: 0px auto;
     border-radius: 50px;
 }
+
 
 .explique {
     padding-top: 50px;
