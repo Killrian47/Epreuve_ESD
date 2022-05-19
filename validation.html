@@ -9,20 +9,20 @@
 <body>
     <p class="p1">Valider vos réponses en inscrivant vos coordonnées</p>
     <div class="form_contact">
-        <form action="/resultat.html" method="post">
+        <form action="resultat.html" method="get">
             <div class="nom">
                 <label for="nom">Votre nom :</label>
-                <input type="text" name="nom" id="nom" placeholder="DUPONT">
+                <input type="text" name="nom" id="nom" placeholder="DUPONT" >
             </div>
             <br>
             <div class="prenom">
                 <label for="prenom">Votre prénom :</label>
-                <input type="text" name="prenom" id="prenom" placeholder="Lucas">
+                <input type="text" name="prenom" id="prenom" placeholder="Lucas" >
             </div>
             <br>
             <div class="email">
                 <label for="mail">Votre adresse mail :</label> 
-                <input type="mail" name="mail" id="mail" placeholder="exemple@mail.com">
+                <input type="mail" name="mail" id="mail" placeholder="exemple@mail.com" >
             </div>
             <br>
             <div class="tel">
@@ -35,8 +35,9 @@
                 <label for="partager">Pouvons nous partager vos résultats ?</label>
             </div>
             
+            <script src="scriptAlert.js"></script>
             <div class="valider">
-                <button>ENVOYER</button>
+                <button id="click" onclick="clicked1()">ENVOYER</button>
             </div>
            
         </form>

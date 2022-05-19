@@ -22,17 +22,26 @@ h1 {
 }
 h2 {
     text-align: center;
+    padding-bottom: 15px;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
 .logo {
-    border: 1px solid;
+    padding-top: 25px;
+    border: 1px dashed;
     padding-bottom: 25px;
-    border-radius: 8px;
+    border-radius: 160px;
 }
 .logo img {
     display: block;
     height: 100px;
     width: auto;
-    padding-top: 10vh;
 
     margin: 0px auto;
     border-radius: 50px;
@@ -139,8 +148,16 @@ input[type=checkbox]:checked {
     margin-bottom: 15px;
 }
 .remerciement {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     font-weight: bold;
-    text-align:justify;
+    text-align: justify;
+}
+.redirect {
+    padding-top: 100px;
+    text-align: justify;
+    
+}
+.acc {
+    font-weight: bold;
 }
